@@ -30,7 +30,7 @@ return {
     {
       "<leader>e",
       function()
-        require("oil").open_float()
+        require("oil").open()
       end,
       desc = "Open Oil file explorer",
     },
