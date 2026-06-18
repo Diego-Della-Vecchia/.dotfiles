@@ -103,6 +103,9 @@ return {
       }
 
       vim.lsp.config.rust_analyzer = {
+        on_attach = function(client)
+          client.server_capabilities.semanticTokensProvider = nil
+        end,
         settings = {
           ["rust-analyzer"] = {
             cargo = { allFeatures = true },
