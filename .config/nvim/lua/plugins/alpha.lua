@@ -20,9 +20,9 @@ return {
 
     dashboard.section.buttons.val = {
       dashboard.button("f", "  Find File", "<cmd>Telescope find_files<CR>"),
-      dashboard.button("g", "  Find Text", "<cmd>Telescope live_grep<CR>"),
+      dashboard.button("g", "  Find Text", "<cmd>Telescope live_grep<CR>"),
       dashboard.button("n", "  New File", "<cmd>ene <BAR> startinsert<CR>"),
-      dashboard.button("r", "  Recent", "<cmd>Telescope oldfiles<CR>"),
+      dashboard.button("r", "  Recent", "<cmd>Telescope oldfiles<CR>"),
       dashboard.button("u", "  Update Plugins", "<cmd>Lazy update<CR>"),
       dashboard.button("c", "  Settings", "<cmd>e $MYVIMRC<CR>"),
       dashboard.button("q", "⏻  Quit", "<cmd>qa<CR>"),
