@@ -6,6 +6,9 @@ general.import = [
 program = "wsl.exe"
 args = ["~"]
 
+[window]
+padding = { x = 4, y = 2 }
+
 [font]
 size = 14.0
 
