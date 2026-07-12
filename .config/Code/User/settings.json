@@ -1,0 +1,85 @@
+{
+  // AI settings
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // Vim settings
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    
+    "<C-i>": false,
+    "<C-b>": false,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-p>": false,
+    "<C-f>": false,
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    }
+  ],
+
+  // Workbench settings
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.iconTheme": "catppuccin-frappe",
+
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.alwaysShowEditorActions": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "none",
+
+
+  // Editor settings
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
+  "editor.stickyScroll.enabled": false,
+
+  // hides the scrollbar gutter
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  "editor.smoothScrolling": true,
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.lineNumbers": "on",
+
+  "window.zoomLevel": 1,
+
+  "explorer.openEditors.visible": 5,
+  "explorer.openEditors.minVisible": 0,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmUndo": "light",
+
+  // Misc settings
+  "window.menuBarVisibility": "hidden",
+  "window.menuStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "window.border": "default",
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+
+  "typescript.experimental.useTsgo": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+}
